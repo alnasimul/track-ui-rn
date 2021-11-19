@@ -4,7 +4,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 
 const TrackCreateScreen = () => {
     return (
-        <SafeAreaView>
+        <SafeAreaView style={{ flex: 1 }}>
             <Text style={{fontSize: 48, textAlign: 'center'}}>Track Create Screen</Text>
         </SafeAreaView>
     );
