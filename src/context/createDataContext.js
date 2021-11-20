@@ -3,8 +3,6 @@ import React, { createContext, useReducer } from 'react';
 export default (reducer, actions, defaultValue) => {
     const Context = createContext();
 
-    console.log('actions',actions);
-
     const Provider = ({children}) => {
         const [state, dispatch] = useReducer(reducer, defaultValue)
 
